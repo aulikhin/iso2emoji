@@ -1,0 +1,40 @@
+{
+  "name": "iso2emoji",
+  "version": "1.0.0",
+  "description": "Converts ISO 3166-1 alpha-2 country codes to their corresponding flag emojis",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "country",
+    "flag",
+    "emoji",
+    "ISO 3166-1",
+    "alpha-2",
+    "country code"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aulikhin/iso2emoji.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aulikhin/iso2emoji/issues"
+  },
+  "homepage": "https://github.com/aulikhin/iso2emoji#readme",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^2.0.5",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  }
+}
